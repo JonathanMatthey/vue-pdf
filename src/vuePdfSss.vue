@@ -4,7 +4,7 @@
 	import componentFactory from './componentFactory'
 	import pdfjsWrapper from './pdfjsWrapper'
 
-	var PDFJS = require('pdfjs-dist/build/pdf.js');
+	var PDFJS = require('pdfjs-dist/webpack');
 
 	if ( process.env.VUE_ENV !== 'server' ) {
 
